@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["WdKjS"]); }
+
+__d("StickersFlyoutWrapper.react",["React","StickersFlyout.react","prop-types"],(function(a,b,c,d,e,f){"use strict";__p&&__p();a=function(a){babelHelpers.inheritsLoose(c,a);function c(){return a.apply(this,arguments)||this}var d=c.prototype;d.render=function(){return b("React").jsx(b("StickersFlyout.react"),{className:this.props.flyoutClassName,shown:this.props.shown,onStickerSelect:this.props.onStickerSelect})};return c}(b("React").PureComponent);a.PropTypes={onStickerSelect:b("prop-types").func,shown:b("prop-types").bool,flyoutClassName:b("prop-types").string};e.exports=a}),null);

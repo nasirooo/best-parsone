@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["0Fk5Z"]); }
+
+__d("PrivacySelectorPrivateSharingDisabledOption",["AsyncDialog","AsyncRequest","PrivacySelectorOptionNew","XWEMPrivateSharingDisableDialogController"],(function(a,b,c,d,e,f){__p&&__p();a=function(a){"use strict";__p&&__p();babelHelpers.inheritsLoose(c,a);function c(b){return a.call(this,b)||this}var d=c.prototype;d.isPrivateSharingDisabledOption=function(){return!0};d.openDialog=function(a){var c=b("XWEMPrivateSharingDisableDialogController").getURIBuilder().setEnum("setting_type",this._data.privateSharingdialogType).getURI();c=new(b("AsyncRequest"))().setURI(c).setRelativeTo(a.getTriggerButtonElement());b("AsyncDialog").send(c)};return c}(b("PrivacySelectorOptionNew"));e.exports=a}),null);
